@@ -7354,6 +7354,23 @@ header .navbar [class*="col-"] .navbar-nav .nav-item {
   -ms-flex-align: center;
   align-items: center;
 }
+header .navbar .nav-item.new-item {
+  position: relative;
+}
+
+header .navbar .nav-item.new-item span {
+  position: absolute;
+  display: block;
+  padding: 0 8px;
+  border-radius: 7px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  color: #fff;
+  background-color: var(--medium-slate-blue);
+  right: 0;
+  top: 24px;
+}
 header .navbar [class*="col-"] .navbar-nav .nav-item a {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12608,9 +12625,7 @@ blockquote footer {
   border-right: 0;
 }
 /* Google map */
-#map {
-  height: 550px;
-}
+
 .arrow_box {
   width: 22px;
   height: 22px;
